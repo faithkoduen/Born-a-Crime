@@ -1,0 +1,130 @@
+.image{
+    display: flex;
+    gap: 1.5cm;
+    margin-left: 1cm;
+}
+.main-container{
+    width: 70%;
+    margin-left: 8cm;
+    background-color: rgb(231, 229, 238);
+}
+.image1{
+    width:50% ;
+    height: 25%;
+}
+#imageone{
+    width: 72%;
+    height: 10%;
+    border-radius: 15px;
+    margin-left: 1.5cm;
+}
+#imagetwo{
+    width: 174%;
+    height: 98%;
+    border-radius: 15px;
+}
+#heading{
+    text-align: center;
+    color: rgb(154, 165, 224);
+    margin-top: 1.5cm;
+}
+#reflective{
+    text-align: center;
+    color: rgb(154, 165, 224);
+}
+#paragraph{
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+#trevor{
+    color:  rgb(154, 165, 224);
+    margin-left: 24cm;
+}
+@media screen and (max-width:480px){
+     .image{
+        display: flex;
+        gap: 0.1cm;
+        
+    }
+    .main-container{
+        overflow-x:hidden;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+         /* margin-left: -100px;  */
+        background-color: rgb(229, 225, 248);
+    }
+    .image1{
+        width:50% ;
+        height: 25%;
+    }
+    #imageone{
+        width: 72%;
+        height: 50%;
+        border-radius: 15px;
+        margin-left: -0.1cm;
+    }
+    #imagetwo{
+        width: 54%;
+        height: 88%;
+        border-radius: 15px;
+    }
+    #heading{
+        text-align: center;
+        color:  rgb(154, 165, 224);
+        margin-top: 1.5cm;
+    }
+    #reflective{
+        text-align: center;
+        color:  rgb(154, 165, 224);
+    }
+    #trevor{
+        color:  rgb(154, 165, 224);
+        margin-left: 4cm;
+    } 
+    
+}
+@media screen  and (min-width:481px) and (max-width: 912px){
+    .image{
+        display: flex;
+        gap: 1.5cm;
+        margin-left: 1cm;
+    }
+    .main-container{
+        width: 70%;
+        margin-left: cm;
+        background-color: rgb(231, 229, 238);
+    }
+    .image1{
+        width:50% ;
+        height: 25%;
+    }
+    #imageone{
+        width: 72%;
+        height: 50%;
+        border-radius: 15px;
+        margin-left: -0.1cm;
+    }
+    #imagetwo{
+        width: 174%;
+        height: 98%;
+        border-radius: 15px;
+    }
+    #heading{
+        text-align: center;
+        color: rgb(154, 165, 224);
+        margin-top: 1.5cm;
+    }
+    #reflective{
+        text-align: center;
+        color: rgb(154, 165, 224);
+    }
+    #paragraph{
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+    #trevor{
+        color:  rgb(154, 165, 224);
+        margin-left: 24cm;
+    }
+}
