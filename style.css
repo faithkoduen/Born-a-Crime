@@ -19,7 +19,7 @@
     margin-left: 1.5cm;
 }
 #imagetwo{
-    width: 174%;
+    width: 60%;
     height: 98%;
     border-radius: 15px;
 }
@@ -128,3 +128,132 @@
         margin-left: 24cm;
     }
 }
+
+
+
+
+body{
+    font-family: gotham;
+    color: rgb(49, 2, 49);
+}
+@font-face {
+    font-family: gothambold;
+    src: url(fonts/GothamPro-Bold.ttf);
+}
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamPro.ttf);
+}
+#logo{
+    width: 3%;
+}
+.title{
+    text-align: center;
+    font-family: gotham;
+    color: rgb(49, 2, 49);
+}
+.options{
+    display:flex;
+    gap: 2%;
+    margin-left: 25%;
+}
+.options li{
+    list-style: none;
+    display: inline;
+}
+a{
+  text-decoration: none;
+  color: rgb(49, 2, 49);
+}
+.options a:hover {
+    color: rgb(193, 4, 187);
+  }
+  .options a.active {
+    color: rgb(187, 63, 183);
+  }
+.subscribe{
+    background-color: rgb(49, 2, 49);
+    color: rgb(246, 216, 245);
+    border-radius: 12px;
+    padding: 3%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+#email{
+    width: 40%;
+    padding: 2%;
+    background-color: rgb(246, 216, 245);
+}
+.btn{
+    width: 20%;
+    padding: 2%;
+    background-color: rgb(246, 216, 245);
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: rgb(193, 4, 187);
+    color: rgb(246, 216, 245);
+}
+.foot{
+    margin-top: 3%;
+}
+#copyright{
+    text-align: center;
+}
+.socials{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+@media screen and (max-width:350px){
+    body {
+        margin: 0;
+        width: 100%;
+        font-family: gotham;
+        padding: 0;
+        position: relative;
+        height: 100%;
+    }
+    }
+    @media screen and (min-width: 351px) and (max-width: 580px){
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        }
+    @media screen and (min-width: 581px) and (max-width: 740px){
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+        }
+        }
+    @media screen and (min-width: 741px) and (max-width: 1040px){
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+        }
+        }
+    @media screen and  (min-width: 1041px) {
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+        }
+        }
