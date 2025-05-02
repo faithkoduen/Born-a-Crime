@@ -146,6 +146,7 @@ body{
 }
 #logo{
     width: 3%;
+    background-color:  rgb(231, 229, 238);
 }
 .title{
     text-align: center;
